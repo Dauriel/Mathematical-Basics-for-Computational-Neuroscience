@@ -1,0 +1,51 @@
+format: jb-book
+root: intro
+
+parts:
+  - caption: Course Information
+    chapters:
+      - file: syllabus
+
+  - caption: "Module 1: Foundations"
+    chapters:
+      - file: foundations/matrices
+      - file: foundations/properties
+      - file: foundations/tensors
+      - file: foundations/change_of_basis
+      - file: foundations/resources
+
+  - caption: "Module 2: Eigentheory & Decompositions"
+    chapters:
+      - file: decompositions/eigentheory
+      - file: decompositions/dynamical_systems
+      - file: decompositions/svd
+      - file: decompositions/spectral
+      - file: decompositions/resources
+
+  - caption: "Module 3: Linear Dimensionality Reduction"
+    chapters:
+      - file: linear_dimred/pca
+      - file: linear_dimred/supervised
+      - file: linear_dimred/temporal
+      - file: linear_dimred/multi_population
+      - file: linear_dimred/resources
+
+  - caption: "Module 4: Non-Linear Methods & Clustering"
+    chapters:
+      - file: nonlinear/umap
+      - file: nonlinear/cebra
+      - file: nonlinear/clustering
+      - file: nonlinear/resources
+
+  - caption: "Module 5: Geometry & Topology"
+    chapters:
+      - file: topology/manifolds
+      - file: topology/choosing_methods
+      - file: topology/integration
+      - file: topology/resources
+
+  - caption: Appendices
+    chapters:
+      - file: appendices/notation
+      - file: appendices/method_comparison
+      - file: appendices/python_setup

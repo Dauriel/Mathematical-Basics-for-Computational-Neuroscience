@@ -1,0 +1,55 @@
+title: "Mathematical Basics for Computational Neuroscience"
+author: ""
+logo: ""
+copyright: "2026"
+
+execute:
+  execute_notebooks: "cache"
+  timeout: 300
+
+launch_buttons:
+  notebook_interface: "classic"
+  colab: true
+  thebe: true
+
+repository:
+  url: "https://github.com/platypus99/Mathematical-Basics-for-Computational-Neuroscience"
+  branch: main
+
+html:
+  use_issues_button: false
+  use_repository_button: true
+  use_edit_page_button: true
+  extra_css:
+    - _static/custom.css
+  extra_footer: |
+    <p>A seminar on the mathematical basics for computational neuroscience.</p>
+
+sphinx:
+  extra_extensions:
+    - sphinx_proof
+    - sphinxcontrib.bibtex
+  config:
+    bibtex_bibfiles: ["references.bib"]
+    mathjax3_config:
+      tex:
+        macros:
+          "RR": "\\mathbb{R}"
+          "CC": "\\mathbb{C}"
+          "bm": ["\\boldsymbol{#1}", 1]
+          "rank": "\\operatorname{rank}"
+          "tr": "\\operatorname{tr}"
+          "diag": "\\operatorname{diag}"
+          "Var": "\\operatorname{Var}"
+          "Cov": "\\operatorname{Cov}"
+          "argmax": "\\operatorname{argmax}"
+          "argmin": "\\operatorname{argmin}"
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - colon_fence
+    - deflist
+    - html_admonition
+    - substitution

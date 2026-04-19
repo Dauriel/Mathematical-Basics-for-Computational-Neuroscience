@@ -1,0 +1,113 @@
+/* ============================================
+   Linear Algebra for Neuroscience - Custom CSS
+   ============================================ */
+
+/* Wider content area */
+.bd-page-width {
+    max-width: 88rem;
+}
+
+/* Main content typography */
+.bd-content {
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* Headings */
+.bd-content h1 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+}
+
+/* Neuroscience Connection admonition */
+.admonition.tip {
+    border-left: 4px solid #27ae60;
+    background-color: #f0faf4;
+}
+
+.admonition.tip > .admonition-title {
+    background-color: #e8f8f0;
+    color: #1e8449;
+}
+
+/* Intuition admonition */
+.admonition.note {
+    border-left: 4px solid #3498db;
+    background-color: #f0f7fd;
+}
+
+.admonition.note > .admonition-title {
+    background-color: #e8f2fb;
+    color: #2471a3;
+}
+
+/* Key Papers / See Also admonition */
+.admonition.seealso {
+    border-left: 4px solid #8e44ad;
+    background-color: #f8f0fc;
+}
+
+.admonition.seealso > .admonition-title {
+    background-color: #f2e6f9;
+    color: #7d3c98;
+}
+
+/* Theorem and definition blocks (sphinx-proof) */
+div.prf-theorem,
+div.prf-definition,
+div.prf-proof {
+    border-radius: 4px;
+    margin: 1.5em 0;
+}
+
+/* Math display equations - more breathing room */
+div.math {
+    margin: 1.5em 0;
+    padding: 0.5em 0;
+}
+
+/* Tables - cleaner styling */
+.bd-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.bd-content table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.bd-content table td,
+.bd-content table th {
+    padding: 0.6em 0.8em;
+    border: 1px solid #dee2e6;
+}
+
+.bd-content table tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Grid cards on landing page */
+.sd-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: box-shadow 0.2s ease;
+}
+
+.sd-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Code blocks */
+div.highlight {
+    border-radius: 6px;
+}
+
+/* Decision guide code block (method_comparison.md) */
+.bd-content .highlight pre {
+    font-size: 0.9em;
+    line-height: 1.5;
+}

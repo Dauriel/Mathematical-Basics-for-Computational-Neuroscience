@@ -1,0 +1,10 @@
+jupyter-book>=1.0.0
+sphinx-proof
+sphinxcontrib-bibtex
+numpy
+scipy
+matplotlib
+plotly
+scikit-learn
+ipywidgets
+pandas
