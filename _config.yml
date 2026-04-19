@@ -13,7 +13,7 @@ launch_buttons:
   thebe: true
 
 repository:
-  url: "https://github.com/platypus99/Mathematical-Basics-for-Computational-Neuroscience"
+  url: "https://github.com/Dauriel/Mathematical-Basics-for-Computational-Neuroscience"
   branch: main
 
 html:
