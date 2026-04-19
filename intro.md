@@ -68,6 +68,6 @@ You do not need to install anything to read the notes or interact with the demos
 
 ---
 
-## Course Team
+## Course LSF
 
-*To be filled in.*
+[Moodle page](https://moodle.lmu.de/course/view.php?id=25847)
